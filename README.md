@@ -19,7 +19,7 @@ and the circuit was designed using tinkercad website as below:
  
  #### Code Explanation:
  ---
- Defining the servos:
+ #### Defining the servos:
  ```
  #include <Servo.h>;
 
@@ -31,7 +31,7 @@ Servo ServoLeftArm1;
 Servo ServoLeftArm2;
 Servo ServoLeftArm3;
 ```
-sitting up:
+#### sitting up:
 ```
 void setup()
 {
@@ -53,7 +53,7 @@ void setup()
   
 }
 ```
-initial position function: 
+#### initial position function: 
 ```
 void initialPosition(){
   
@@ -66,7 +66,7 @@ void initialPosition(){
   
   ```
  
- first move:
+ #### First move:
   ```void loop()
 {
    if (Serial.available() > 0)
@@ -95,7 +95,7 @@ void initialPosition(){
   
   ```
    
-   second move:
+   #### Second move:
    
     ``` else if (input == '2')
     {
@@ -112,7 +112,7 @@ void initialPosition(){
     
     }
     ```
-   third move: 
+   #### Third move: 
     
     ```
     else if (input == '3')
