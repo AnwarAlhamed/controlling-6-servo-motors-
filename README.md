@@ -65,7 +65,7 @@ void initialPosition(){
        ServoLeftArm3.write(0);
   
   ```
- 
+ ##### It depends on the number you enter in the serial monitor.
  #### First move:
   ```void loop()
 {
